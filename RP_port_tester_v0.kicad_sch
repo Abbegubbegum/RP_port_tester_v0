@@ -5495,6 +5495,10 @@
 		(uuid "ff7345ae-7506-4a70-8d8b-7b8c90b14273")
 	)
 	(no_connect
+		(at 113.03 167.64)
+		(uuid "065a19a1-fcda-4d50-a996-572a70a62e10")
+	)
+	(no_connect
 		(at 41.91 271.78)
 		(uuid "072f9b6b-8809-4952-8273-9929699b9fad")
 	)
@@ -5519,12 +5523,28 @@
 		(uuid "20cd9792-582a-4678-ad31-eddcfbc01289")
 	)
 	(no_connect
+		(at 113.03 127)
+		(uuid "23483551-831b-4ad3-897c-cca1f20372fc")
+	)
+	(no_connect
+		(at 113.03 172.72)
+		(uuid "298df4a2-34e6-4aec-a0fe-f0eb88023898")
+	)
+	(no_connect
+		(at 113.03 121.92)
+		(uuid "3559d7d6-f650-458a-bb61-7212ae72b442")
+	)
+	(no_connect
 		(at 69.85 271.78)
 		(uuid "3d349193-12ad-4967-8999-49ddbc356a8a")
 	)
 	(no_connect
 		(at 69.85 259.08)
 		(uuid "5967c27e-1c57-44cd-8976-d268c063274a")
+	)
+	(no_connect
+		(at 113.03 170.18)
+		(uuid "65073be5-430e-4964-9919-cee6e047ba40")
 	)
 	(no_connect
 		(at 69.85 254)
@@ -5543,6 +5563,14 @@
 		(uuid "73dd9636-daf9-4aec-a686-0ba8d603415c")
 	)
 	(no_connect
+		(at 113.03 149.86)
+		(uuid "857e5f85-20a4-4b55-8c41-e05157996e99")
+	)
+	(no_connect
+		(at 113.03 154.94)
+		(uuid "9d228a3d-02c9-4381-adac-033c5bbaefc9")
+	)
+	(no_connect
 		(at 41.91 232.41)
 		(uuid "9f894989-db59-4e5f-aff5-c8f86dd52df0")
 	)
@@ -5559,12 +5587,20 @@
 		(uuid "a741f09c-4d33-469e-9048-a8b8c0c246c2")
 	)
 	(no_connect
+		(at 113.03 152.4)
+		(uuid "aa9db46d-837f-4c80-affa-2a89143d0812")
+	)
+	(no_connect
 		(at 69.85 237.49)
 		(uuid "b0295625-9331-48c5-a9d5-451394aefc46")
 	)
 	(no_connect
 		(at 113.03 187.96)
 		(uuid "b2e3ae54-c47d-44d9-9f83-88fad6263f8d")
+	)
+	(no_connect
+		(at 62.23 111.76)
+		(uuid "b5b3cec8-a72f-4c7c-8cfd-a6a620c4708c")
 	)
 	(no_connect
 		(at 41.91 224.79)
@@ -5583,8 +5619,20 @@
 		(uuid "c562817b-ce3e-43d3-a89b-1c5015f7b305")
 	)
 	(no_connect
+		(at 113.03 116.84)
+		(uuid "c5c81d52-e7f1-45d0-a710-48110cdf3a58")
+	)
+	(no_connect
 		(at 41.91 266.7)
 		(uuid "c992e8d2-ff53-4367-b759-ca97010e6b72")
+	)
+	(no_connect
+		(at 113.03 175.26)
+		(uuid "cfec5d8f-5024-4dd4-a1a4-9945644954d9")
+	)
+	(no_connect
+		(at 113.03 142.24)
+		(uuid "db8bd5b1-7d31-44ca-99e0-f5808cc423b0")
 	)
 	(no_connect
 		(at 41.91 274.32)
@@ -5599,6 +5647,10 @@
 		(uuid "ddb79de8-b582-4f0c-a004-b4a1bf1876a2")
 	)
 	(no_connect
+		(at 113.03 129.54)
+		(uuid "df0f5854-271e-4f41-9247-35fb5447d1f4")
+	)
+	(no_connect
 		(at 62.23 177.8)
 		(uuid "e5180c21-5cb3-4893-89c3-45fbff3e8c12")
 	)
@@ -5609,6 +5661,10 @@
 	(no_connect
 		(at 41.91 259.08)
 		(uuid "f0d41c65-8755-4517-9ba5-4c3a35544bfe")
+	)
+	(no_connect
+		(at 113.03 132.08)
+		(uuid "f3139cf4-7b24-4172-907c-b7523949b00c")
 	)
 	(no_connect
 		(at 69.85 242.57)
@@ -9093,7 +9149,7 @@
 		(at 321.31 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "020646f9-b948-4032-be82-f26aa754a62d")
@@ -9161,7 +9217,7 @@
 		(at 356.87 220.98 0)
 		(unit 2)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9589,7 +9645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 189.23 95.2499 0)
 			(effects
 				(font
@@ -9658,7 +9714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2n2"
+		(property "Value" "2.2nF"
 			(at 292.1 215.8999 0)
 			(effects
 				(font
@@ -10250,7 +10306,7 @@
 		(at 287.02 261.62 0)
 		(unit 3)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10470,7 +10526,7 @@
 		(at 165.1 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10670,7 +10726,7 @@
 		(at 139.7 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10754,7 +10810,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "220R"
 			(at 364.49 128.2699 0)
 			(effects
 				(font
@@ -10912,7 +10968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 392.43 227.3299 0)
 			(effects
 				(font
@@ -11315,7 +11371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 143.51 95.2499 0)
 			(effects
 				(font
@@ -11498,7 +11554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 120.65 95.2499 0)
 			(effects
 				(font
@@ -11553,7 +11609,7 @@
 		(at 279.4 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11652,7 +11708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 166.37 95.2499 0)
 			(effects
 				(font
@@ -11984,7 +12040,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "70k"
+		(property "Value" "68k"
 			(at 375.92 177.7999 0)
 			(effects
 				(font
@@ -12040,7 +12096,7 @@
 		(at 318.77 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12203,7 +12259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 365.76 177.7999 0)
 			(effects
 				(font
@@ -12407,7 +12463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 339.09 224.7899 0)
 			(effects
 				(font
@@ -13005,7 +13061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 224.79 209.5499 0)
 			(effects
 				(font
@@ -13388,7 +13444,7 @@
 		(at 77.47 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13622,7 +13678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 132.08 95.2499 0)
 			(effects
 				(font
@@ -13888,7 +13944,7 @@
 		(at 77.47 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14194,7 +14250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 257.81 209.5499 0)
 			(effects
 				(font
@@ -14541,7 +14597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 63.5 95.2499 0)
 			(effects
 				(font
@@ -15077,7 +15133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 33.02 39.3699 0)
 			(effects
 				(font
@@ -15648,7 +15704,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 21.5963 153.67 90)
 			(effects
 				(font
@@ -15715,7 +15771,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 21.59 173.99 90)
 			(effects
 				(font
@@ -15783,7 +15839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 177.8 95.2499 0)
 			(effects
 				(font
@@ -15918,7 +15974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 57.15 39.3699 0)
 			(effects
 				(font
@@ -16055,7 +16111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 154.94 95.2499 0)
 			(effects
 				(font
@@ -16457,7 +16513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 388.62 187.9599 0)
 			(effects
 				(font
@@ -16527,7 +16583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 106.68 31.7499 0)
 			(effects
 				(font
@@ -16596,7 +16652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 76.2 95.2499 0)
 			(effects
 				(font
@@ -16651,7 +16707,7 @@
 		(at 120.65 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16724,7 +16780,7 @@
 		(at 49.53 264.16 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16828,7 +16884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 50.8 95.2499 0)
 			(effects
 				(font
@@ -16883,7 +16939,7 @@
 		(at 49.53 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -17190,7 +17246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 111.76 95.2499 0)
 			(effects
 				(font
